@@ -1,0 +1,25 @@
+{
+  "name": "htmx-test2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"vite build --watch\" \"tailwindcss -i ./src/index.css -o ./static/index.css --watch\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-go-template": "^0.0.15",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.0.1",
+    "htmx.org": "^1.9.12",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  }
+}
